@@ -5,3 +5,5 @@ if [ "$str" = ' "", ' ];then
 else
     echo successful
 fi
+
+rm result.txt -rf
