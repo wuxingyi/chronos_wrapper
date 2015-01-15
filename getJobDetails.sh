@@ -5,7 +5,7 @@ curl -X GET -H "Authorization: Basic cm9vdDpoZWxsb3dvcmxkMTIz" -H "Content-Type:
 ./jobinfo.py test.json $1 
 
 if [[ $? == 0 ]];then
-    cat jobinfo.json | python -m json.tool
+    cat jobinfo.json | python -m json.tool 
     rm jobinfo.json
 fi
 
