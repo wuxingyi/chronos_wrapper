@@ -11,6 +11,7 @@ done < result.txt
 
 if [ $hasJob -eq 0  ];then
     echo "no such job"
+    rm -rf result.txt
     exit -1
 fi
 
