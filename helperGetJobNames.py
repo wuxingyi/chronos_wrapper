@@ -15,5 +15,3 @@ for i in range(0,len(s)):
 f = open('Names.txt','w')
 for item in names:
     f.write('%s\n' % item)
-    
-

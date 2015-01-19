@@ -1,0 +1,6 @@
+str="{\"name\": "\"$1\"", \"command\": \"sleep 10\", \"epsilon\": \"PT30S\", \"owner\": \"wuxingyi@letv.com\", \"async\": false, \"cpus\": 0.1, \"disk\": 0, \"mem\": 16, \"highPriority\": true, \"runAsUser\": \"root\", \"parents\": [\"1\"]}" 
+
+
+curl -X POST -H "Authorization: Basic cm9vdDpoZWxsb3dvcmxkMTIz" -H "Content-Type: application/json" -d "${str}" http://10.180.92.57:9999/scheduler/dependency
+
+
